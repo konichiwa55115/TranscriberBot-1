@@ -9,7 +9,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 #Greeting message
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
-    if message.text == 'Hello':
+    if message.text == 'Hi':
         bot.reply_to(message, 'Hello! How can I help you today?')
 
 
