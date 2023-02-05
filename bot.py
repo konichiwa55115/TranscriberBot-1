@@ -2,7 +2,7 @@ import os
 from background import keep_alive
 import telebot
 
-BOT_TOKEN = os.environ['BOT_TOKEN']
+BOT_TOKEN = "6089522865:AAG0vUsYSBg-BaSfiG1T5E1QTrorjoMDA4U"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
